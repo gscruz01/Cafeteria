@@ -14,7 +14,7 @@ body{
     justify-content: end;
     color: white;
     padding: 30px 30px;
-    border-bottom: 2px solid #fff;
+
 }
 
 .navbar li {
@@ -134,7 +134,7 @@ body{
     font-style: normal;
     position: absolute;
     top: 30%;
-    left: 72%;
+    left: 69%;
     transform: translate(-50%, -50%);
 }
 .cafe-com-leite{
