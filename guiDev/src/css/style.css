@@ -11,11 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    width:  1920px;
-    height: 800px;
-}
-
 /* Menu */
 .navbar {
     display: flex;
@@ -29,7 +24,8 @@ header {
 
 .navbar li {
     list-style: none;
-
+    animation: lightSpeedInLeft;
+    animation-duration: 2s;
 }
 
 .navbar a {
@@ -46,8 +42,8 @@ header {
 
 .introducao {
     display: inline-block;
-    position: relative; 
-    width:  1920px;
+    position: relative;
+    width: 1920px;
     height: 800px;
 }
 
@@ -60,9 +56,10 @@ header {
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    top: 30%;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 10%;
+    animation: fadeInLeft;
+    animation-duration: 1.5s;
 }
 
 .introducao p {
@@ -73,11 +70,11 @@ header {
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    top: 55%;
-    left: 38%;
-    transform: translate(-50%, -50%);
-    
-    
+    top: 43%;
+    left: 10%;
+    max-width: 1100px;
+    animation: fadeInRight;
+    animation-duration: 1.5s;
 }
 
 #imgfundo {
@@ -85,14 +82,7 @@ header {
     background-position: center;
     filter: brightness(0.4);
 }
-img {
-    margin: 0;
-}
-section{
-    width:  1920px;
-    height: 900px;
 
-}
 #imgfundoSection {
     background-size: cover;
     background-position: center;
@@ -102,40 +92,36 @@ section{
     border: 0;
 }
 
-/* cafe Expresso */
-.Apresentacao-cafe-expresso {
+/* MODELO 1 */
+.modelo-1 {
     display: inline-block;
     position: relative;
-    margin: 0;
-    width:  1920px;
-    height: 800px;
 }
 
 .titulo-cafés {
     font-size: 60px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Platypi", serif;
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    top: 30%;
-    left: 21%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 12%;
+
 }
 
-.cafe-expresso {
+.imagens-ilustrativas-1 {
     font-size: 30px;
     color: rgb(0, 0, 0);
     font-family: "Platypi", serif;
     font-optical-sizing: auto;
     position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-50%, -50%);
+    top: 38%;
+    left: 12%;
     border-radius: 50px;
 }
 
-.Apresentacao-cafe-expresso p {
+.modelo-1 p {
     font-size: 30px;
     color: white;
     font-family: "Platypi", serif;
@@ -143,45 +129,41 @@ section{
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    top: 55%;
-    left: 58%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 48%;
     max-width: 700px;
-    
 
 }
 
-/* Cafe com leite */
-.Apresentacao-cafe-com-leite {
+/* MODELO 2 */
+.modelo-2 {
     display: inline-block;
     position: relative;
 }
 
-.titulo-cafés2 {
+.titulo-cafés-2 {
     font-size: 60px;
     color: rgb(255, 255, 255);
     font-family: "Platypi", serif;
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    top: 30%;
-    left: 69%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 60%;
 }
 
-.cafe-com-leite {
+.imagens-ilustrativas-2 {
     font-size: 30px;
     color: rgb(0, 0, 0);
     font-family: "Platypi", serif;
     font-optical-sizing: auto;
     position: absolute;
-    top: 60%;
-    left: 72%;
-    transform: translate(-50%, -50%);
+    top: 38%;
+    left: 60%;
     border-radius: 50px;
 }
 
-.Apresentacao-cafe-com-leite p {
+.modelo-2 p {
     font-size: 30px;
     color: white;
     font-family: "Platypi", serif;
@@ -189,514 +171,7 @@ section{
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    top: 55%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* Capucino */
-.Apresentacao-capucino {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés3 {
-    font-size: 60px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 18%;
-    transform: translate(-50%, -50%);
-}
-
-.capucino {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-capucino p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* AFFOGATO */
-.Apresentacao-AFFOGATO {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés4 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 68%;
-    transform: translate(-50%, -50%);
-}
-
-.AFFOGATO {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-AFFOGATO p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* ALEXANDER */
-.Apresentacao-ALEXANDER {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés5 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 18%;
-    transform: translate(-50%, -50%);
-}
-
-.ALEXANDER {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-ALEXANDER p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* COCONUT-COFFEE */
-.Apresentacao-COCONUT-COFFEE {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés6 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 71%;
-    transform: translate(-50%, -50%);
-}
-
-.COCONUT-COFFEE {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-COCONUT-COFFEE p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* COLD-BREW */
-.Apresentacao-COLD-BREW {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés7 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 19%;
-    transform: translate(-50%, -50%);
-}
-
-.COLD-BREW {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-COLD-BREW p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* ESPRESSO-MARTINI */
-.Apresentacao-ESPRESSO-MARTINI {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés8 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 73%;
-    transform: translate(-50%, -50%);
-}
-
-.ESPRESSO-MARTINI {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-ESPRESSO-MARTINI p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* LATTE-MACCHIATO */
-.Apresentacao-LATTE-MACCHIATO {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés9 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-}
-
-.LATTE-MACCHIATO {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-LATTE-MACCHIATO p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* MOCHA */
-.Apresentacao-MOCHA {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés10 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 73%;
-    transform: translate(-50%, -50%);
-}
-
-.MOCHA {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-MOCHA p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* NEGRONI */
-.Apresentacao-NEGRONI {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés11 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-}
-
-.NEGRONI {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-NEGRONI p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-.Apresentacao-WHITE-RUSSIAN {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés12 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 73%;
-    transform: translate(-50%, -50%);
-}
-
-.WHITE-RUSSIAN {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-WHITE-RUSSIAN p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-/* FRAPE-DE-CAFE */
-.Apresentacao-FRAPE-DE-CAFE {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo-cafés13 {
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 30%;
-    left: 21%;
-    transform: translate(-50%, -50%);
-}
-
-.FRAPE-DE-CAFE {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-}
-
-.Apresentacao-FRAPE-DE-CAFE p {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 55%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-
-}
-
-footer {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    border-radius: 25px;
-    padding: 50px 0px 50px;
+    top: 39%;
+    left: 10%;
+    max-width: 800px;
 }
