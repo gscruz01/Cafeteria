@@ -86,7 +86,7 @@ body {
 #imgfundoSection {
     background-size: cover;
     background-position: center;
-    filter: brightness(0.6);
+    filter: brightness(0.3);
     margin: 0;
     padding: 0;
     border: 0;
@@ -174,4 +174,8 @@ body {
     top: 39%;
     left: 10%;
     max-width: 800px;
+}
+span {
+    color: rgb(255, 182, 133);
+    font: italic bold 30px/30px "Platypi", serif;
 }
