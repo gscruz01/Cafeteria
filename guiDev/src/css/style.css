@@ -12,36 +12,29 @@ body {
 }
 
 /* Menu */
-.logo {
-    margin: 0 -950%;
+nav {
+    background-color: black;
+
 }
 
-.navbar {
-    display: flex;
-    background-color: rgba(0, 0, 0, 6);
-    align-items: end;
-    justify-content: end;
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
     color: white;
-    padding: 30px 30px;
-
-}
-
-.navbar li {
-    list-style: none;
+    text-decoration: none;
+    padding: 25px 45px;
+    font-size: 20px;
     animation: lightSpeedInLeft;
     animation-duration: 2s;
 }
 
-.navbar a {
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    padding: 20px 45px;
-}
-
-.navbar a:hover {
-    color: #682b03;
-    transition: 0.6s;
+nav li a:hover {
+    background-color: #682b03;
+    transition: 1.5s;
+    border-radius: 20px;
 }
 
 .introducao {
